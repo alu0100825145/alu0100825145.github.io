@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	impress().init();
+	
 	iracontacto(){
 		impress().goto(2);	
 	}

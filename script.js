@@ -1,7 +1,8 @@
 $(document).ready(function() {
-	
+	api=impress();
+	api.init();
 	iracontacto(){
-		impress().goto(2);	
+		api.goto(2);	
 	}
 	
 });

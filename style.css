@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to top, pink, #9F9);
+}
+#osss{
+	background: linear-gradient(to top, black, #9F9);
+	text-align: center;
+}
+div#reloj{
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+}
+
+div#reloj div{
+  height:100px;
+  width:150px;
+  background: black;
+  margin: 4px;
+  color: white;
+  font-size:100px;
+  text-align:center;
+}

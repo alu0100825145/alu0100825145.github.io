@@ -1,5 +1,9 @@
 $(document).ready(function() {
 	impress().init();
+	iracontacto(){
+		impress().goto(2);	
+	}
+	
 });
 $(document).ready(function() {
 	var hora = document.getElementById('horas');

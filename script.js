@@ -1,8 +1,7 @@
 $(document).ready(function() {
 	impress().init();
 });
-	
-});
+
 $(document).ready(function() {
 	var hora = document.getElementById('horas');
 	var minuto = document.getElementById('minutos');

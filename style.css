@@ -2,12 +2,21 @@ body{
     	background: linear-gradient(to top, black, #9F9);
 
 }
-#osss{
+div#osss{
 	background: linear-gradient(to top, black, #9F9);
 	text-align: center;
 	display:flex;
   	justify-content:center;
   	flex-direction:row;
+}
+div#oss div{
+	height:30px;
+  	width:auto;
+  	background: linear-gradient(to top, black, #9F9);
+  	margin: 4px;
+  	color: white;
+  	font-size:30 px;
+  	text-align:center;
 }
 div#reloj{
   	display:flex;

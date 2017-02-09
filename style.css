@@ -3,6 +3,6 @@ body{
 
 }
 div#osss{
-	background: linear-gradient(to top, black, #9F9);
+	background: linear-gradient(to bottom, black, #9F9);
 	text-align: center;
 }

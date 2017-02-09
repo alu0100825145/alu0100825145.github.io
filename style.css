@@ -14,16 +14,19 @@ body{
   cursor: pointer;
 }
 [data-control] {
-  background: white;
+  background: #9F9;
   padding: 5px;  
 }
 
+div[data-content]{
+  background: white;
+}
 /* Decoración */
 .accordion [data-control]::before {
   content: '⊞ ';
-  color: white;
+  color: black;
 }
 .accordion.open [data-control]::before {
   content: '⊟ ';
-  color: white;
+  color: black;
 }

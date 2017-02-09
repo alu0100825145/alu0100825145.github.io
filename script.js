@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	impress().init();
-}
+});
 	
 });
 $(document).ready(function() {

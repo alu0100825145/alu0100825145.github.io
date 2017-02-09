@@ -9,26 +9,27 @@ body{
 
 /* Contenedor del acordeón */
 [data-accordion] {
-  border: 3px solid #000;
-  margin: 2px;
-  cursor: pointer;
+  	border: 3px solid #000;
+  	margin: 2px;
+  	cursor: pointer;
 }
 [data-control] {
-  padding: 5px;  
+  	padding: 5px;  
 }
 
 div.accordion{
-  width:600px;
+  	width:600px;
+  	height:auto;
 }
 div.contenidoacordeon{
-  background: white;
+  	background: white;
 }
 /* Decoración */
 .accordion [data-control]::before {
-  content: '⊞ ';
-  color: black;
+  	content: '⊞ ';
+  	color: black;
 }
 .accordion.open [data-control]::before {
-  content: '⊟ ';
-  color: black;
+  	content: '⊟ ';
+  	color: black;
 }

@@ -14,7 +14,7 @@ body{
   cursor: pointer;
 }
 [data-control] {
-  background: #CCC;
+  background: white;
   padding: 5px;  
 }
 

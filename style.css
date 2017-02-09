@@ -11,10 +11,10 @@ div#osss{
 }
 div#oss div{
 	height:30px;
-  	width:auto;
-  	background: linear-gradient(to top, black, #9F9);
+  	width:40px;
+  	background: white;
   	margin: 4px;
-  	color: white;
+  	color: black;
   	font-size:30 px;
   	text-align:center;
 }

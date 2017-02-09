@@ -9,7 +9,7 @@ body{
 
 /* Contenedor del acordeón */
 [data-accordion] {
-  border: 1px solid #888;
+  border: 3px solid #000;
   margin: 2px;
   cursor: pointer;
 }
@@ -21,9 +21,9 @@ body{
 /* Decoración */
 .accordion [data-control]::before {
   content: '⊞ ';
-  color: #888;
+  color: white;
 }
 .accordion.open [data-control]::before {
   content: '⊟ ';
-  color: #444;
+  color: white;
 }

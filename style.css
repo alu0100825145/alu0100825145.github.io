@@ -7,33 +7,3 @@ body{
 	text-align: center;
 }
 
-/* Contenedor del acordeón */
-[data-accordion] {
-  	border: 3px solid #000;
-  	margin: 2px;
-  	cursor: pointer;
-}
-[data-control] {
-  	padding: 5px;  
-}
-div#bienvenida{
-	width:600px;
-	height:400px;
-	background: linear-gradient(to top, black, #9F9);
-}
-div.accordion{
-  	width:600px;
-  	height:auto;
-}
-div.contenidoacordeon{
-  	background: white;
-}
-/* Decoración */
-.accordion [data-control]::before {
-  	content: '⊞ ';
-  	color: black;
-}
-.accordion.open [data-control]::before {
-  	content: '⊟ ';
-  	color: black;
-}
